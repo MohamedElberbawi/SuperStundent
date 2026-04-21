@@ -628,7 +628,7 @@ footer p { font-size: 0.82rem; color: rgba(255,255,255,0.3); }
 
 <!-- EARLY BIRD BANNER -->
 <div class="early-bird-banner">
-  🔥 خصم الطيور المبكرة — ينتهي في <span>1 مايو 2025</span> &nbsp;|&nbsp; وفّر حتى 500 جنيه!
+  🔥 خصم الحجز المبكرة — ينتهي في <span>1 مايو 2025</span> &nbsp;|&nbsp; وفّر حتى 500 جنيه!
 </div>
 
 <!-- NAV -->
@@ -662,7 +662,7 @@ footer p { font-size: 0.82rem; color: rgba(255,255,255,0.3); }
         برنامج SuperStudent المتخصص يطوّر القدرات المعرفية الأساسية — من الانتباه والذاكرة العاملة إلى مهارات التفكير الاستراتيجي — ليترجم ذكاء طفلك إلى تفوّق حقيقي في المدرسة والحياة.
       </p>
       <div class="hero-btns">
-        <a href="#enroll" class="btn-neon">احجز مقعدك بخصم الحجز المبكر</a>
+        <a href="#enroll" class="btn-neon">احجز مقعدك بخصم المبكر</a>
         <a href="#programme" class="btn-outline">اعرف أكثر</a>
       </div>
     </div>
@@ -961,59 +961,13 @@ footer p { font-size: 0.82rem; color: rgba(255,255,255,0.3); }
       <p>عدد المقاعد محدود لضمان جودة التعليم. أرسل بياناتك وسنتواصل معك لتأكيد الحجز والاستفادة من خصم الطيور المبكرة.</p>
     </div>
 
-    <div class="form-card">
-      <div class="form-grid">
-        <div class="form-group">
-          <label>اسم ولي الأمر</label>
-          <input type="text" placeholder="الاسم الكامل">
-        </div>
-        <div class="form-group">
-          <label>رقم الهاتف (واتساب)</label>
-          <input type="tel" placeholder="01xxxxxxxxx">
-        </div>
-        <div class="form-group">
-          <label>اسم الطالب</label>
-          <input type="text" placeholder="اسم الطفل">
-        </div>
-        <div class="form-group">
-          <label>عمر الطالب</label>
-          <select>
-            <option value="" disabled selected>اختر العمر</option>
-            <option>٩ سنوات</option>
-            <option>١٠ سنوات</option>
-            <option>١١ سنة</option>
-            <option>١٢ سنة</option>
-            <option>١٣ سنة</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label>نوع الاشتراك المفضّل</label>
-          <select>
-            <option value="" disabled selected>اختر الباقة</option>
-            <option>شهري — ٢٧٠٠ جنيه (سعر مبكر)</option>
-            <option>ترم كامل — ٨٠٠٠ جنيه (سعر مبكر)</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label>خدمة التوصيل والاستقبال</label>
-          <select>
-            <option value="" disabled selected>هل تحتاجها؟</option>
-            <option>نعم، أحتاج خدمة التوصيل</option>
-            <option>لا، سأحضر بنفسي</option>
-          </select>
-        </div>
-        <div class="form-group full">
-          <label>منطقتك / حيّك (اختياري)</label>
-          <input type="text" placeholder="مثال: المعادي، مدينة نصر، الزمالك...">
-        </div>
-      </div>
-
-      <button class="submit-btn" onclick="handleSubmit()">
+    <div style="text-align:center;">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNzfKQA2Nrc94ixKIt8bYU5BD87NdUvZUZh7JCAfvKa16XLQ/viewform?usp=publish-editor" target="_blank" class="btn-neon" style="font-size:1.15rem; padding:1.1rem 3rem; display:inline-block;">
         احجز مقعدي بسعر الطيور المبكرة ⚡
-      </button>
-      <p class="form-note">
-        سيتواصل معك فريقنا خلال ٢٤ ساعة لتأكيد الحجز. <br>
-        <span>المقاعد محدودة — لا تتأخر!</span>
+      </a>
+      <p style="margin-top:1.25rem; font-size:0.85rem; color:var(--text-muted); line-height:1.7;">
+        سيتواصل معك فريقنا خلال ٢٤ ساعة لتأكيد الحجز.<br>
+        <span style="color:var(--pink-mid); font-weight:700;">المقاعد محدودة — لا تتأخر!</span>
       </p>
     </div>
   </div>
@@ -1029,14 +983,6 @@ footer p { font-size: 0.82rem; color: rgba(255,255,255,0.3); }
   </div>
 </footer>
 
-<script>
-function handleSubmit() {
-  const btn = document.querySelector('.submit-btn');
-  btn.textContent = '✓ تم استلام طلبك! سنتواصل معك قريباً';
-  btn.style.background = 'var(--baby-blue)';
-  btn.style.boxShadow = 'none';
-  btn.disabled = true;
-}
-</script>
+
 </body>
 </html>
